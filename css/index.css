@@ -22,7 +22,7 @@ time, mark, audio, video {
 	font-size: 100%;
 	font: inherit;
     vertical-align: baseline;
-    border: .5px solid green
+    /*border: .5px solid green*/
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -88,7 +88,7 @@ div img{
     padding: 0% 0% 0% 0%;
     display: flex;
     
-   margin: 0% 0% 0% 0%;
+   margin: 0% 0% 2% 0%;
 }
 html, body {
     height: 100%;
@@ -215,10 +215,48 @@ footer nav a {
     text-decoration: none;
 }
 /* about.html starts here*/
- div.part1{
+ body {
      width: 800px;
-    padding: 0% 0% 0% 0%;
-    margin: 0% 0% 0% 0%;
+     margin: 0 auto;
+ }
+ div.containerpage {
+     padding:0% 0% 1% 0% ;
+     border-bottom: dashed black;
+ }
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+ .part2 .pic{
+     width: 45%;
+     height: 390px;
+     display: flex;
+     flex-wrap: wrap;
+     margin: 3% 0% 6% 0%;
+     padding: 0% 0% 2% 0%;
+
+ }
+.part2 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.pic {
+    border-bottom: dashed black;
+}
+.pic a button{
+    width: 90px;
+    height: 30px;
+    margin:5% 0% 0% 0%;
+    padding: 2% 0% 0% 0%;
+    font-size: 12px;
+    border-style: hidden;
+}
+div.part3{
+    padding: 0% 3% 0% 3%;
+}
+footer{
+    margin-top: 1%;
 }
